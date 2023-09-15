@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/yourusername/Html_Form_Using_SpringBoot.git
-   ```
+ 
 Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 ## Build the project using Maven:
@@ -29,7 +29,7 @@ Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 mvn spring-boot:run
 The application should now be running at  
 ```bash
-   http://localhost:8080/api.
+   http://localhost:8080/api
 ```
 
 ## Usage
