@@ -26,7 +26,10 @@ mvn clean install
 ## Run the application:
 
 mvn spring-boot:run
-The application should now be running at http://localhost:8080/api.
+The application should now be running at  
+```bash
+http://localhost:8080/api.
+```
 
 ## Usage
 Access the application by opening your web browser and navigating to http://localhost:8080/api.
@@ -49,7 +52,7 @@ To view the H2 in-memory database console, navigate to http://localhost:8080/h2-
 
 JDBC URL: jdbc:h2:mem:userdb
 Username: tandon
-Password: (leave it empty)
+Password: choose any password you want
 To stop the application, press Ctrl+C in the terminal where it is running.
 
 ## Contributing
