@@ -15,22 +15,22 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository to your local machine:
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/Html_Form_Using_SpringBoot.git
  
 Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 ## Build the project using Maven:
-```bash
+```
    mvn clean install
 ```
 ## Run the application:
-
-mvn spring-boot:run
-The application should now be running at  
-```bash
-   http://localhost:8080/api
 ```
+mvn spring-boot:run
+```
+The application should now be running at  
+
+   http://localhost:8080/api
 
 ## Usage
 Access the application by opening your web browser and navigating to http://localhost:8080/api.
@@ -53,7 +53,7 @@ To view the H2 in-memory database console, navigate to http://localhost:8080/h2-
 
 JDBC URL: jdbc:h2:mem:userdb
 Username: tandon
-Password: choose any password you want
+Password: (choose any password you want)
 To stop the application, press Ctrl+C in the terminal where it is running.
 
 ## Contributing
@@ -64,3 +64,9 @@ Create a new branch for your feature or bug fix: git checkout -b feature/your-fe
 Make your changes and commit them: git commit -m 'Add some feature'.
 Push to your branch: git push origin feature/your-feature-name.
 Create a pull request.
+
+
+
+Feel free to reach out if you have any questions or need assistance.
+
+Thank you for considering contributing to this project! We look forward to your contributions.
