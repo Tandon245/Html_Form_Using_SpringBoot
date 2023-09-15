@@ -19,9 +19,9 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/yourusername/Html_Form_Using_SpringBoot.git
 Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
-Build the project using Maven:
+## Build the project using Maven:
 
-```bash
+
 mvn clean install
 Run the application:
 
@@ -30,7 +30,7 @@ Run the application:
 mvn spring-boot:run
 The application should now be running at http://localhost:8080/api.
 
-Usage
+## Usage
 Access the application by opening your web browser and navigating to http://localhost:8080/api.
 
 You will see a user registration form.
@@ -54,7 +54,7 @@ Username: tandon
 Password: (leave it empty)
 To stop the application, press Ctrl+C in the terminal where it is running.
 
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 Fork the repository.
