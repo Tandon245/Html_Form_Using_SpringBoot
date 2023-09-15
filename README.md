@@ -25,8 +25,7 @@ Build the project using Maven:
 mvn clean install
 Run the application:
 
-bash
-Copy code
+
 mvn spring-boot:run
 The application should now be running at http://localhost:8080/api.
 
