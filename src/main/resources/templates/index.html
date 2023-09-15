@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"  xmlns:th="http://wwww.thymeLeaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+</head>
+<body>
+<h1>This is user Input form using Spring Boot</h1>
+<form th:action="@{/register}" th:object="${user}" method="post">
+    <label>Enter your first name:</label><br>
+    <input type="text" name="firstName"><br>
+
+    <label>Enter your last name:</label><br>
+    <input type="text" name="lastName"><br>
+
+    <label>Enter your email id:</label><br>
+    <input type="email" name="email"><br>
+
+    <label>Enter your date of birth:</label><br>
+    <input type="date" name="dob"><br>
+
+    <label>Enter gender:</label><br>
+    <select name="gender">
+        <option value="female">female</option>
+        <option value="male">male</option>
+        <option value="transgender">transgender</option>
+    </select><br>
+
+    <label>Enter your password:</label><br>
+    <input type="password" name="password"><br>
+
+    <button type="submit">Submit Form</button>
+</form>
+
+
+</body>
+</html>
