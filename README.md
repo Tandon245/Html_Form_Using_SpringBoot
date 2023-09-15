@@ -20,12 +20,10 @@ Before you begin, ensure you have met the following requirements:
 Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 ## Build the project using Maven:
-
-
+```bash
 mvn clean install
-Run the application:
-
-
+```
+## Run the application:
 
 mvn spring-boot:run
 The application should now be running at http://localhost:8080/api.
