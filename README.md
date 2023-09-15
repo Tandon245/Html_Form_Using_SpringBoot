@@ -21,9 +21,10 @@ Open the project in your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse).
 
 Build the project using Maven:
 
-
+```bash
 mvn clean install
 Run the application:
+
 
 
 mvn spring-boot:run
