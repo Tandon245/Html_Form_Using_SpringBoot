@@ -2,6 +2,7 @@
 
 This is a simple Spring Boot web application that allows users to register by filling out a form. User data is then stored in an H2 in-memory database. This README.md file will guide you through setting up and using the project.
 
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
